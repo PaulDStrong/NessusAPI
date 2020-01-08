@@ -1,5 +1,5 @@
 ﻿
-Generates the encrypted keys. Can be run separately.
+#Generates the encrypted keys. Can be run separately.
 $ackey = Read-Host -AsSecureString
 $ackeypt = $ackey | ConvertFrom-SecureString
 $ackeypt | out-file 'C:\Temp\API Keys\AKey.txt'
